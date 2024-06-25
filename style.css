@@ -1,0 +1,77 @@
+@import url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff2);
+:root {
+  --white: #fff;
+  --black: #000;
+  --gray: #232323;
+  --midGray: #ffffffb3;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Netflix Sans", sans-serif;
+  color: var(--white);
+  }
+  body {
+    background-color: var(--black);
+  }.gray{
+  background-color: var(--gray);
+  height: 10px;
+  width: 100%;
+}
+.faq-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+}
+.faq-item{
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 85%;
+  text-align: center;
+  font-size: 1.5rem;
+  }
+  .faq-item > .q {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 5rem;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: var(--gray);
+}
+.q > p , .q > svg {
+  margin: 20px;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 100px 100px 80px 100px;
+  flex-direction: column;
+  height: 400px;
+  width: 100%;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+.grid-item {
+  margin: 0px 40px;
+  padding: 0px 40px;
+  text-align: left;
+  color: var(--midGray);
+}
+a {
+  color: var(--midGray);
+}
+.one {
+  grid-column: 1/5;
+}
+.one , .grid-container{
+  margin-bottom:25px;
+}
