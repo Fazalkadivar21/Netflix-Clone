@@ -4,15 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NFX</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
-    
     <div class="first">
       <div class="nav">
         <svg
           class="logo"
-          style="fill: rgb(229, 9, 20)"
+          style="fill: var(--red)"
           viewBox="0 0 111 30"
           version="1.1"
           xmlns="http://www.w3.org/2000/svg"
@@ -59,12 +58,17 @@
       <div class="jinfo">
         <div><h1>Unlimited movies, TV shows and more</h1></div>
         <div><p>Watch anywhere. Cancel anytime.</p></div>
-        <div>
-          Ready to watch? Enter your email to create or restart your membership.
-        </div>
-        <div>
-          <span><input type="text" placeholder="Email address" /></span
-          ><span><button type="button">Get Started</button></span>
+        <div class="gt-container">
+          <div class="gt-item">
+            <p>
+              Ready to watch? Enter your email to create or restart your
+              membership.
+            </p>
+          </div>
+          <div class="gt-item">
+            <span><input type="text" placeholder="Email address" /></span
+            ><span><button type="button">Get Started</button></span>
+          </div>
         </div>
       </div>
     </div>
@@ -80,7 +84,13 @@
       <div class="img">
         <div class="frame"><img src="res/frm/tv.png" alt="" /></div>
         <div class="vid">
-          <video src="res/vid/tv.m4v" autoplay loop mute></video>
+          <video
+            src="res/vid/tv.m4v"
+            autoplay
+            loop
+            mute
+            style="position: relative; top: -5px"
+          ></video>
         </div>
       </div>
     </div>
@@ -91,15 +101,14 @@
           <img src="res/frm/mobile.jpg" alt="" srcset="" />
         </div>
         <div class="frDiv">
-          <span><img src="res/img/mobile2.png" alt="" /></span>
-          <span>
+          <span><img src="res/img/mobile2.png" alt="" height="70px"/>
             <div>
-              <h1>Stranger Things</h1>
-              <p>Downloading...</p>
+              <p style="font-size: medium; font-weight: 600;">Stranger Things</p>
+              <p style="color: #0071eb;">Downloading...</p>
             </div>
           </span>
           <span
-            ><div><img src="res/img/download-icon.gif" alt="" /></div
+            ><div><img src="res/img/download-icon.gif" alt="" height="50px"/></div
           ></span>
         </div>
       </div>
@@ -120,7 +129,13 @@
       <div class="img">
         <div class="frame"><img src="res/frm/rc.png" alt="" /></div>
         <div class="vid">
-          <video src="res/vid/rc.m4v" autoplay loop mute></video>
+          <video
+            src="res/vid/rc.m4v"
+            autoplay
+            loop
+            mute
+            style="height: 14em; position: relative; top: -75px"
+          ></video>
         </div>
       </div>
     </div>
@@ -271,12 +286,17 @@
         </div>
       </div>
       <div class="faq-item">
-        <div>
-          Ready to watch? Enter your email to create or restart your membership.
-        </div>
-        <div>
-          <span><input type="text" placeholder="Email address" /></span
-          ><span><button type="button">Get Started</button></span>
+        <div class="gt-container">
+          <div class="gt-item">
+            <p>
+              Ready to watch? Enter your email to create or restart your
+              membership.
+            </p>
+          </div>
+          <div class="gt-item" style="width: auto">
+            <span><input type="text" placeholder="Email address" /></span
+            ><span><button type="button">Get Started</button></span>
+          </div>
         </div>
       </div>
     </div>
@@ -326,7 +346,7 @@
         </select>
       </div>
       <div class="grid-item one">
-        <p style="color: var(--midGray);">Netflix India</p>
+        <p style="color: var(--midGray)">Netflix India</p>
       </div>
     </footer>
   </body>

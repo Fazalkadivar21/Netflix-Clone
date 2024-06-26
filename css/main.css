@@ -1,0 +1,182 @@
+@import url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff2);
+:root {
+  --red: rgb(229, 9, 20);
+  --white: #fff;
+  --black: #000;
+  --gray:#808080;
+  --darkGray: #232323;
+  --midGray: #ffffffb3;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Netflix Sans", sans-serif;
+  color: var(--white);
+}
+h1{
+  font-weight: 1000;
+}
+body {
+  background-color: var(--black);
+}
+.gray {
+  background-color: var(--darkGray);
+  height: 10px;
+  width: 100%;
+}
+.feture{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 0px;
+  padding: 72px 0px;
+  margin: 0px 191px;
+  align-items: center;
+  justify-content: center;
+}
+.img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.frm{
+position: absolute;
+}
+.vid{
+  position: absolute;
+  z-index: -1;
+}
+.frDiv{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  border: 1px solid var(--gray);
+  border-radius: 1rem;
+  background-color: var(--black);
+  height: 5rem;
+  width: 20rem;
+  font-size: 1.2rem;
+  z-index: 2;
+  padding: 10px 0px;
+}
+.frDiv>span>* , .frDiv>span {
+  height: inherit;
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.frDiv>span>div{
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: small;
+  margin: 0;
+  padding: 0;
+}
+.info{
+  font-size: 1.6rem;
+}
+.info>h1 , .info>p{
+  /* margin: 10px; */
+  padding: 10px 0px;
+}
+.info>p{
+  font-weight: 400;
+}
+.gt-container {
+  font-size: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.gt-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+
+.gt-item>span{
+  height: 4rem;
+  padding: 5px;
+}
+.gt-item>span>input{
+  padding: 10px;
+  font-size: 1.2rem;
+  height: inherit;
+  width: 20em;
+  border: 1px solid var(--gray);
+  border-radius: 0.3rem;
+  background-color: var(--darkGray);
+  }
+  .gt-item>span>button{
+    font-size: 1.3rem;
+    height: inherit;
+  width: 10em;
+  border: none;
+  border-radius: 0.3rem;
+  background-color: var(--red);
+}
+.faq-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+}
+.faq-item {
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 85%;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.faq-item > .q {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 5rem;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: var(--darkGray);
+}
+.q > p,
+.q > svg {
+  margin: 20px;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 100px 100px 80px 100px;
+  flex-direction: column;
+  height: 400px;
+  width: 100%;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+.grid-item {
+  margin: 0px 40px;
+  padding: 0px 40px;
+  text-align: left;
+  color: var(--midGray);
+}
+a {
+  color: var(--midGray);
+}
+.one {
+  grid-column: 1/5;
+}
+.one,
+.grid-container {
+  margin-bottom: 25px;
+}
