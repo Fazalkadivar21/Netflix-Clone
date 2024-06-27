@@ -34,6 +34,11 @@ To run this project locally, follow these steps:
 ## Usage
 Once you open `index.html` in your browser, you should see a replica of the Netflix home page. You can navigate through the sections and see the static content styled similarly to Netflix.
 
+## Demo
+this clone is flagged by google so can't visit it directly on the website.This video shows each aspect of the website.
+![Website-demo](res/vid/demo.mp4)
+
+
 ## Roadmap
 Here are some of the features and functionalities I plan to add in the future:
 - **User Authentication**: Sign up and login functionality.
