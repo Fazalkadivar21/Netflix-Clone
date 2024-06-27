@@ -3,6 +3,18 @@
 ## Overview
 Welcome to my Netflix Clone project! This is a fun and educational project where I have recreated the user interface of Netflix. While it's not a fully functional clone, it closely resembles the original Netflix website. As I continue to learn and improve my skills, I will be adding more functionalities and features to this project.
 
+## Flaged
+This clone is flagged by google so can't visit it directly on the website since you will be seeing warnings here are some screen-shots.
+
+![ss1](res/ss/ss1.png)
+![ss2](res/ss/ss.2png)
+![ss3](res/ss/ss.p3ng)
+![ss4](res/ss/ss.pn4g)
+![ss5](res/ss/ss.png5)
+![ss6](res/ss/ss.png)6
+![ss7](res/ss/ss.png7)
+
+
 ## Features
 - **Home Page**: The main Netflix page layout with a responsive design.
 - **UI Elements**: Includes similar styling, fonts, and layout to mimic Netflix.
@@ -33,11 +45,6 @@ To run this project locally, follow these steps:
 
 ## Usage
 Once you open `index.html` in your browser, you should see a replica of the Netflix home page. You can navigate through the sections and see the static content styled similarly to Netflix.
-
-## Demo
-this clone is flagged by google so can't visit it directly on the website.This video shows each aspect of the website.
-<video src="res/vid/demo.mp4" controls autoplay loop></video>
-
 
 ## Roadmap
 Here are some of the features and functionalities I plan to add in the future:
