@@ -36,9 +36,10 @@ Once you open `index.html` in your browser, you should see a replica of the Netf
 
 ## Demo
 this clone is flagged by google so can't visit it directly on the website.This video shows each aspect of the website.
-<video  width="100%" height="100%" controls>
+<video  width="100%" height="100%" controls autoplay loop>
 <source src="res/vid/demo.mp4" type="video/mp4">
-</source></video>
+</source>
+your browser does not support the video tag</video>
 
 
 ## Roadmap
