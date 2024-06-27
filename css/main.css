@@ -3,7 +3,7 @@
   --red: rgb(229, 9, 20);
   --white: #fff;
   --black: #000;
-  --gray:#808080;
+  --gray: #808080;
   --darkGray: #232323;
   --midGray: #ffffffb3;
 }
@@ -14,18 +14,89 @@
   font-family: "Netflix Sans", sans-serif;
   color: var(--white);
 }
-h1{
+h1 {
   font-weight: 1000;
 }
 body {
   background-color: var(--black);
+}
+.first{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+}
+.bg{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  position: absolute;
+  z-index: -1;
+}
+.nav {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.nav > .nav2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px 10px;
+  width: 25%;
+}
+.nav2 > button {
+  height: 2em;
+  width: 7.5em;
+  background: var(--red);
+  font-size: 1.2rem;
+  border-radius: 0.3em;
+  border: none;
+}
+.n2f > select {
+  font-size: 1.2rem;
+  border-radius: 0.3em;
+  border: none;
+  background: #00000000;
+  height: 2.4rem;
+}
+.nav2 > .n2f {
+  border-radius: 0.3em;
+  background: var(--darkGray);
+  width: 7.5em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px 10px;
+  border: 1px solid var(--gray);
+}
+.nav > .logo {
+  width: 9.5rem;
+  height: 2.5rem;
+}
+.jinfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.2rem;
+  padding: 100px;
+}
+.jinfo > div {
+  margin-bottom: 10px;
+  padding: 5px;
 }
 .gray {
   background-color: var(--darkGray);
   height: 10px;
   width: 100%;
 }
-.feture{
+.feture {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 0px;
@@ -34,57 +105,56 @@ body {
   align-items: center;
   justify-content: center;
 }
-.img{
+.img {
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
 }
-.frm{
-position: absolute;
+.frm {
+  position: absolute;
 }
-.vid{
+.vid {
   position: absolute;
   z-index: -1;
 }
-.frDiv{
+.frDiv {
   display: flex;
   align-items: center;
   justify-content: space-between;
   position: absolute;
   border: 1px solid var(--gray);
-  border-radius: 1rem;
+  border-radius: 0.7rem;
   background-color: var(--black);
-  height: 5rem;
-  width: 20rem;
+  height: 6rem;
+  width: 23rem;
   font-size: 1.2rem;
   z-index: 2;
-  padding: 10px 0px;
+  position: absolute;
+  top: 22rem;
 }
-.frDiv>span>* , .frDiv>span {
+.frDiv > span {
   height: inherit;
-  margin: 5px;
-  padding: 5px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
-.frDiv>span>div{
+.frDiv > span > div {
   flex-direction: column;
   align-items: flex-start;
   font-size: small;
-  margin: 0;
-  padding: 0;
+  font-size: medium;
 }
-.info{
+.info {
   font-size: 1.6rem;
 }
-.info>h1 , .info>p{
+.info > h1,
+.info > p {
   /* margin: 10px; */
   padding: 10px 0px;
 }
-.info>p{
+.info > p {
   font-weight: 400;
 }
 .gt-container {
@@ -100,12 +170,22 @@ position: absolute;
   align-items: center;
   margin: 10px;
 }
+.grid-item > .n2f {
+  border-radius: 0.3em;
+  background: var(--darkGray);
+  width: 7.5em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px 10px;
+  border: 1px solid var(--gray);
+}
 
-.gt-item>span{
+.gt-item > span {
   height: 4rem;
   padding: 5px;
 }
-.gt-item>span>input{
+.gt-item > span > input {
   padding: 10px;
   font-size: 1.2rem;
   height: inherit;
@@ -113,10 +193,10 @@ position: absolute;
   border: 1px solid var(--gray);
   border-radius: 0.3rem;
   background-color: var(--darkGray);
-  }
-  .gt-item>span>button{
-    font-size: 1.3rem;
-    height: inherit;
+}
+.gt-item > span > button {
+  font-size: 1.3rem;
+  height: inherit;
   width: 10em;
   border: none;
   border-radius: 0.3rem;
