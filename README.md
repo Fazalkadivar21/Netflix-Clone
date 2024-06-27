@@ -7,12 +7,12 @@ Welcome to my Netflix Clone project! This is a fun and educational project where
 This clone is flagged by google so can't visit it directly on the website since you will be seeing warnings here are some screen-shots.
 
 ![ss1](res/ss/ss1.png)
-![ss2](res/ss/ss.2png)
-![ss3](res/ss/ss.p3ng)
-![ss4](res/ss/ss.pn4g)
-![ss5](res/ss/ss.png5)
-![ss6](res/ss/ss.png)6
-![ss7](res/ss/ss.png7)
+![ss2](res/ss/ss2.png)
+![ss3](res/ss/ss3.png)
+![ss4](res/ss/ss4.png)
+![ss5](res/ss/ss5.png)
+![ss6](res/ss/ss6.png)
+![ss7](res/ss/ss7.png)
 
 
 ## Features
