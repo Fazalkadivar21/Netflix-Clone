@@ -20,6 +20,10 @@ h1 {
 body {
   background-color: var(--black);
 }
+select>option {
+  background-color: var(--darkGray);
+  color: var(--white);
+}
 .first{
   display: flex;
   justify-content: center;
